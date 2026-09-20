@@ -1,0 +1,17 @@
+{
+  "name": "my-starter",
+  "image": "ghcr.io/molly24ncf/my-starter:1.0.0",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "reditorsupport.r@2.8.8"
+      ],
+      "settings": {
+        "r.plot.useHttpgd": true,
+        "files.autoSave": "afterDelay",
+        "editor.wordWrap": "on"
+      }
+    }
+  },
+  "postAttachCommand": "echo 'my-starter is ready'"
+}
